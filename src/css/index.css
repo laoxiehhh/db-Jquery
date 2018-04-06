@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    height: 28px;
+    min-width: 950px;
+    background-color: #545652;
+    color: #d5d5d5;
+    font-size: 12px;
+}
+.nav .top-nav-info{
+    float: right;
+    margin-right: 12px;
+}
+.nav .top-nav-info a{
+    display: inline-block;
+    color: #d5d5d5;
+    line-height: 28px;
+    text-decoration: none;
+    padding: 0 12px;
+}
+.nav .top-nav-doubanapp{
+    float: right;
+    margin-right: 22px;
+}
+.nav .top-nav-doubanapp a{
+    color: #d5d5d5;
+    line-height: 28px;
+    text-decoration: none;
+}
+.nav .top-nav-item{
+    float: left;
+}
+.nav .top-nav-item ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav .top-nav-item ul li a{
+    color: #d5d5d5;
+    line-height: 28px;
+    text-decoration: none;
+}
+.db-music{
+    width: 100%;
+    height: 74px;
+    min-width: 1024px;
+    background-color: #f0f3ef;
+    border-bottom: 1px solid #ccc;
+}
+.db-music .nav-wrap{
+    width: 950px;
+    margin: 0 auto;
+    padding: 10px 0 5px;
+}
+.db-music .nav-wrap .nav-logo{
+    width: 145px;
+    height: 56px;
+    float: left;
+}
+.db-music .nav-wrap .nav-logo a{
+    display: inline-block;
+    width: 145px;
+    height: 56px;
+    background: url('https://img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1') no-repeat 0 12px;
+}
+.db-music .nav-wrap .nav-search{
+    position: relative;
+    margin-left: 150px;
+    padding-top: 9px; 
+}
+.db-music .nav-wrap .nav-search .input{
+    width: 450px;
+    height: 28px;
+    outline: none;
+}
+.db-music .nav-wrap .nav-search .submit{
+    display: inline-block;
+    height: 34px;
+    width: 37px;
+    background: url('https://img3.doubanio.com/dae/accounts/resources/094108a/music/assets/nav_mu_bg.png?s=1') no-repeat 0 -40px;
+    vertical-align: -14px;
+    margin-left: -8px;
+}
+.nav-search .search-item  {
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    width: 453px;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.nav-search .search-item ul li {
+    width: 443px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+}
+.nav-search .search-item ul li a {
+    display: block;
+}
+.nav-search .search-item ul li:hover{
+    background-color: #ccc;
+}
+.nav-search .search-item ul li img{
+
+    width: 40px; 
+    height: 40px;
+    margin-right: 10px;
+}
+.nav-search .search-item ul li div{
+    display: inline-block;
+    font-size: 14px;
+    color: cornflowerblue;
+    vertical-align: top;
+}
+.search-item ul li div p:nth-of-type(1){
+    margin-bottom: 9px;
+}
+.search-item ul li div p:nth-of-type(2){
+    color: #888;
+}

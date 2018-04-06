@@ -1,0 +1,75 @@
+.search-content{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.search-content h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #494949;
+}
+.search-content .main{
+    width: 100%;
+}
+.search-content .main li {
+    margin-bottom: 20px;
+}
+.main li img{
+    width: 80px;
+    height: 80px;
+   
+}
+.main li .item-text{
+    width: 600px;
+    display: inline-block;
+    vertical-align: 4px;
+    margin-left: 20px;
+}
+.main li .item-text .item-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #666699;
+}
+.item-text .item-mark{
+    margin-top: 15px;
+}
+.item-text .item-mark .mark-img{
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background: url('../image/ic_rating_m.png');
+    background-repeat: no-repeat;
+}
+.item-text .item-mark .mark-num{
+    color: #e09015;
+    font-size: 14px;
+    padding: 0 3px;
+}
+.item-text .item-mark .mark-all{
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.item-text .item-meta{
+    margin-top: 5px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#fanye {
+    width: 950px;
+    margin: 50px auto;
+    padding-right: 100px;
+    padding-left: 50px;
+    text-align: center;
+}
+#fanye a{
+    text-decoration: none;
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #37a;
+    padding: 0px 4px;
+}

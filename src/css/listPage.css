@@ -1,0 +1,64 @@
+.content{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content h1{
+    font-size: 26px;
+    font-weight: bold;
+    word-wrap: break-word;
+    color: #494949;
+}
+.content .cont-main{
+    width: 640px;
+    
+    margin-top: 20px;
+}
+.content .cont-main img{
+    width: 135px;
+}
+.content .cont-main .cont-text{
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: top;
+}
+.content .cont-main .cont-text span{
+    display: inline-block;
+    font: 13px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+}
+.content .cont-main .cont-mark{
+    float: right;
+    border-left: 1px solid #eaeaea;
+    height: 100%; 
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-left: 20px;
+}
+.content .cont-main .cont-mark .mark-logo{
+    
+}
+.content .cont-main .cont-mark .mark-num{
+    color: #494949;
+    min-width: 30%;
+    font-size: 28px;
+    line-height: 2;
+}
+.content .cont-main .cont-mark .mark-wrap{
+    display: inline-block;
+    
+}
+.content .cont-main .cont-mark .mark-img{
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background: url('../image/ic_rating_m.png');
+    background-repeat: no-repeat;
+}
+.content .cont-main .cont-mark .mark-person{
+    
+    display: inline-block;
+}
+
+
